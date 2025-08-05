@@ -12,36 +12,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
+    </head>
 <body>
     <header>
-    <div class="container">
-        <div class="header-content">
-            <div class="logo">
-    <img src="Public/images/KgotlhaLogo.png" alt="Tsitsing Logo" class="logo-img" />
-    Tsitsing Kgotla ya Rakhudu
-</div>
-            <nav>
-                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
-                <ul id="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#heritage">Heritage</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#notices">Notices</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo">
+                    <img src="Public/images/KgotlhaLogo.png" alt="Kgotla Logo" class="logo-img" />
+                    Kgotla ya Rakhudu
+                </a>
+                <nav>
+                    <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+                    <ul id="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#heritage">Heritage</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#notices">Notices</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
     <section id="home" class="hero">
         <div class="container">
-            <img src="Public/images/KgosanaKoketso.jpeg" alt="Kgosana Koketso Rakhudu" class="Hero-img" />
-            <h1 class="fade-in">Tsitsing Kgotla ya Rakhudu</h1>
+            <img src="Public/images/KgosanaFamily.jpeg" alt="Kgosana Family" class="Hero-img" />
+            <h1 class="fade-in">Kgotla ya Rakhudu</h1>
             <p class="fade-in">Preserving our heritage, strengthening our community, honoring our ancestors</p>
             <a href="#about" class="cta-button fade-in">Learn About Our Kgotla</a>
         </div>
@@ -53,7 +53,7 @@
                 <h2 class="fade-in">About Our Kgotla</h2>
                 <div class="about-content fade-in">
                     <div class="about-text">
-                        <p>Tsitsing Kgotla ya Rakhudu stands as a beacon of traditional governance and cultural preservation in our community. For generations, we have served as the meeting place where wisdom is shared, decisions are made, and our rich heritage is celebrated.</p>
+                        <p>Kgotla ya Rakhudu stands as a beacon of traditional governance and cultural preservation in our community. For generations, we have served as the meeting place where wisdom is shared, decisions are made, and our rich heritage is celebrated.</p>
                         <p>Our Kgotla operates under the guidance of traditional leaders who carry forward the customs and values passed down through centuries. We welcome all community members - elders who hold our stories, youth seeking to understand their roots, and cultural groups dedicated to preserving our way of life.</p>
                         <p>Here, every voice matters, every tradition is honored, and every gathering strengthens the bonds that unite us as one people.</p>
                     </div>
@@ -64,6 +64,21 @@
         <section id="heritage" class="heritage-stories">
             <div class="container">
                 <h2 class="fade-in">Heritage Stories</h2>
+                
+                <div class="heritage-overview fade-in">
+                    <h3>Our Heritage Content Overview</h3>
+                    <p>The heritage section of our Kgotla preserves and shares the rich cultural tapestry of our community. Here you will find:</p>
+                    <ul>
+                        <li><strong>Oral Traditions:</strong> Ancient stories, proverbs, and wisdom passed down through generations by our elders</li>
+                        <li><strong>Historical Chronicles:</strong> Documentation of significant events, milestones, and transformations in our community's journey</li>
+                        <li><strong>Cultural Practices:</strong> Traditional ceremonies, rituals, and customs that define our identity and strengthen our bonds</li>
+                        <li><strong>Leadership Legacy:</strong> Stories of past and present traditional leaders who have guided our community with wisdom and integrity</li>
+                        <li><strong>Community Heroes:</strong> Recognition of individuals who have made significant contributions to our cultural preservation and community development</li>
+                        <li><strong>Sacred Sites:</strong> Information about important locations, their historical significance, and cultural meaning</li>
+                        <li><strong>Traditional Knowledge:</strong> Indigenous knowledge systems including medicine, agriculture, and environmental conservation practices</li>
+                    </ul>
+                </div>
+                
                 <div class="fade-in">
                     <div class="story-card">
                         <div class="story-quote">
@@ -87,22 +102,19 @@
                 
                 <div class="cards-grid fade-in">
                     <div class="card">
-                        <div class="card-icon">📚</div>
                         <h3>Oral Traditions</h3>
                         <p>Preserving our stories, proverbs, and wisdom through the spoken word, ensuring each generation receives the knowledge of those before.</p>
-                        <img src="Public/images/KgosanaChancellor.jpg" alt="Kgosanan Speaking Image" class="heritage-img" />
+                        <img src="Public/images/KgosanasFather.jpeg" alt="Kgosana's Father - Elder of Oral Traditions" class="heritage-img" />
                     </div>
                     <div class="card">
-                        <div class="card-icon">🎭</div>
                         <h3>Cultural Ceremonies</h3>
                         <p>Celebrating our heritage through traditional ceremonies, dances, and rituals that connect us to our ancestral roots.</p>
-                        <img src="Public/images/CulturalDance.jpeg" alt=" Cultural Heritage Dance Image" class="heritage-img" />
+                        <img src="Public/images/KgotlaGrounds.jpeg" alt="Kgotla Grounds - Center of Cultural Activities" class="heritage-img" />
                     </div>
                     <div class="card">
-                        <div class="card-icon">⚖️</div>
                         <h3>Traditional Justice</h3>
                         <p>Upholding fair and restorative justice practices that heal communities and maintain harmony among our people.</p>
-                        <img src="Public/images/Gogos.jpeg" alt="Kgotla at work" class="heritage-img" />
+                        <img src="Public/images/KgosanaKoketso.jpeg" alt="Kgosana Koketso - Traditional Leader" class="heritage-img" />
                     </div>
                 </div>
             </div>
@@ -120,7 +132,7 @@
                         <div class="event-details">
                             <h4>Community Gathering</h4>
                             <p>Monthly community meeting to discuss local matters and share updates. All community members welcome.</p>
-                            <small>📍 Main Kgotla Grounds | 🕒 14:00 - 17:00</small>
+                            <small>Main Kgotla Grounds | 14:00 - 17:00</small>
                         </div>
                     </div>
                     <div class="event-item">
@@ -131,7 +143,7 @@
                         <div class="event-details">
                             <h4>Heritage Day Celebration</h4>
                             <p>Annual celebration of our cultural heritage featuring traditional music, dance, and storytelling.</p>
-                            <small>📍 Community Grounds | 🕒 10:00 - 18:00</small>
+                            <small>Community Grounds | 10:00 - 18:00</small>
                         </div>
                     </div>
                     <div class="event-item">
@@ -142,9 +154,15 @@
                         <div class="event-details">
                             <h4>Youth Leadership Workshop</h4>
                             <p>Training session for young community members on traditional leadership values and modern governance.</p>
-                            <small>📍 Kgotla Hall | 🕒 09:00 - 16:00</small>
+                            <small>Kgotla Hall | 09:00 - 16:00</small>
                         </div>
                     </div>
+                </div>
+                
+                <div class="previous-events fade-in">
+                    <h3>Previous Events</h3>
+                    <p>Explore our rich history of community gatherings, cultural celebrations, and traditional ceremonies.</p>
+                    <a href="#previous-events" class="previous-events-link">View Previous Events</a>
                 </div>
             </div>
         </section>
@@ -156,22 +174,22 @@
                     <div class="notice-item">
                         <h4>Water Conservation Guidelines</h4>
                         <p>Important information regarding water usage during the dry season. Community cooperation requested.</p>
-                        <a href="#" class="download-link">📄 Download PDF</a>
+                        <a href="#" class="download-link">Download PDF</a>
                     </div>
                     <div class="notice-item">
                         <h4>Livestock Registration Reminder</h4>
                         <p>All livestock owners must register their animals by month end. Forms available at the Kgotla office.</p>
-                        <a href="#" class="download-link">📄 Download Form</a>
+                        <a href="#" class="download-link">Download Form</a>
                     </div>
                     <div class="notice-item">
                         <h4>Traditional Medicine Workshop</h4>
                         <p>Elder healers will conduct workshops on traditional medicine practices. Registration required.</p>
-                        <a href="#" class="download-link">📄 Registration Form</a>
+                        <a href="#" class="download-link">Registration Form</a>
                     </div>
                     <div class="notice-item">
                         <h4>Community Development Projects</h4>
                         <p>Information about ongoing and planned development projects in our area. Community input welcomed.</p>
-                        <a href="#" class="download-link">📄 Project Details</a>
+                        <a href="#" class="download-link">Project Details</a>
                     </div>
                 </div>
             </div>
@@ -184,7 +202,7 @@
                     <div class="contact-info">
                         <h3>Get in Touch</h3>
                         <div class="contact-item">
-                            <div class="contact-icon">📍</div>
+                            <div style="background-color: var(--forest-green); color: var(--white); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">📍</div>
                             <div>
                                 <strong>Address</strong><br>
                                 Tsitsing Village<br>
@@ -193,21 +211,21 @@
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="contact-icon">📞</div>
+                            <div style="background-color: var(--forest-green); color: var(--white); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">📞</div>
                             <div>
                                 <strong>Phone</strong><br>
                                 +27 (0)12 345-6789
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="contact-icon">✉️</div>
+                            <div style="background-color: var(--forest-green); color: var(--white); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">✉️</div>
                             <div>
                                 <strong>Email</strong><br>
                                 info@tsitsingkgotla.co.za
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="contact-icon">🕒</div>
+                            <div style="background-color: var(--forest-green); color: var(--white); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">🕒</div>
                             <div>
                                 <strong>Office Hours</strong><br>
                                 Mon - Fri: 08:00 - 16:00<br>
@@ -246,30 +264,29 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>About Our Kgotla</h4>
+                    <h4>Kgotla ya Rakhudu</h4>
                     <p>Preserving tradition, building community, and honoring the wisdom of our ancestors for future generations.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <p><a href="#about">About Us</a></p>
-                    <p><a href="#heritage">Heritage</a></p>
-                    <p><a href="#events">Events</a></p>
-                    <p><a href="#notices">Notices</a></p>
-                </div>
-                <div class="footer-section">
-                    <h4>Community</h4>
+                    <h4>Services</h4>
                     <p>Traditional Leadership</p>
-                    <p>Cultural Groups</p>
-                    <p>Youth Programs</p>
-                    <p>Elder Council</p>
+                    <p>Cultural Events</p>
+                    <p>Community Mediation</p>
+                    <p>Heritage Preservation</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Tsitsing Kgotla ya Rakhudu. All rights reserved. | Built with respect for tradition and community.</p>
+                <div class="quick-links">
+                    <a href="#about">About</a>
+                    <a href="#heritage">Heritage</a>
+                    <a href="#events">Events</a>
+                    <a href="#notices">Notices</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p>&copy; 2025 Kgotla ya Rakhudu. All rights reserved. | Built with respect for tradition and community.</p>
             </div>
         </div>
     </footer>
-
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -22,11 +23,11 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <div className="quick-links">
-            <a href="#about">About</a>
-            <a href="#heritage">Heritage</a>
-            <a href="#events">Events</a>
-            <a href="#notices">Notices</a>
-            <a href="#contact">Contact</a>
+            <Link to="/about">About</Link>
+            <Link to="/heritage">Heritage</Link>
+            <Link to="/events">Events</Link>
+            <Link to="/notices">Notices</Link>
+            <Link to="/contact">Contact</Link>
           </div>
           <p>
             &copy; 2025 Kgotla ya Rakhudu. All rights reserved. | Built with respect for tradition and community.

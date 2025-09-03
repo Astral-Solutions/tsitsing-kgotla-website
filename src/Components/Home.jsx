@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
               and every voice contributes to the harmony of our people.
             </p>
             <div className="hero-buttons">
-              <a href="/about" className="btn btn-primary">Learn About Us</a>
-              <a href="/events" className="btn btn-secondary">Upcoming Events</a>
+              <Link to="/about" className="btn btn-primary">Learn About Us</Link>
+              <Link to="/events" className="btn btn-secondary">Upcoming Events</Link>
             </div>
           </div>
         </div>
@@ -38,7 +39,7 @@ export default function Home() {
                 At Kgotla ya Rakhudu, we continue this proud tradition, serving as a bridge 
                 between our ancestral wisdom and the needs of our modern community.
               </p>
-              <a href="/about" className="btn btn-outline">Discover Our Story</a>
+              <Link to="/about" className="btn btn-outline">Discover Our Story</Link>
             </div>
             <div className="image-content">
               <div className="placeholder-image">
@@ -117,7 +118,7 @@ export default function Home() {
                   <strong>Cultural Ceremonies:</strong> Celebrations that connect us to our roots
                 </div>
               </div>
-              <a href="/heritage" className="btn btn-outline">Explore Our Heritage</a>
+              <Link to="/heritage" className="btn btn-outline">Explore Our Heritage</Link>
             </div>
           </div>
         </div>
@@ -136,7 +137,7 @@ export default function Home() {
               <div className="update-content">
                 <h3>Community Meeting Scheduled</h3>
                 <p>Join us for our monthly community gathering to discuss important matters affecting our area.</p>
-                <a href="/notices" className="read-more">Read More →</a>
+                <Link to="/notices" className="read-more">Read More →</Link>
               </div>
             </div>
             <div className="update-card">
@@ -147,7 +148,7 @@ export default function Home() {
               <div className="update-content">
                 <h3>Cultural Festival Planning</h3>
                 <p>We are organizing our annual cultural festival. Community participation and volunteers needed.</p>
-                <a href="/events" className="read-more">View Events →</a>
+                <Link to="/events" className="read-more">View Events →</Link>
               </div>
             </div>
             <div className="update-card">
@@ -158,7 +159,7 @@ export default function Home() {
               <div className="update-content">
                 <h3>Heritage Documentation Project</h3>
                 <p>Help us preserve our oral traditions by sharing your family stories and cultural knowledge.</p>
-                <a href="/heritage" className="read-more">Learn More →</a>
+                <Link to="/heritage" className="read-more">Learn More →</Link>
               </div>
             </div>
           </div>
@@ -175,8 +176,8 @@ export default function Home() {
               or simply wish to connect with your heritage, you are welcome at Kgotla ya Rakhudu.
             </p>
             <div className="cta-buttons">
-              <a href="/contact" className="btn btn-primary">Get In Touch</a>
-              <a href="/events" className="btn btn-secondary">Join Our Events</a>
+              <Link to="/contact" className="btn btn-primary">Get In Touch</Link>
+              <Link to="/events" className="btn btn-secondary">Join Our Events</Link>
             </div>
           </div>
         </div>

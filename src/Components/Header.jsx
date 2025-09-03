@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/KgotlhaLogo.png";
+import logo from "../../Public/images/KgotlhaLogo.png";
 
 export default function Header() {
   return (

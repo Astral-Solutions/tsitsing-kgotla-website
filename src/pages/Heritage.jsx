@@ -1,6 +1,6 @@
 import React from "react";
-import fatherImg from "../../Public/images/KgosanasFather.jpeg";
-import groundsImg from "../../Public/images/KgotlaGrounds.jpeg";
+//import fatherImg from "../../Public/images/KgosanasFather.jpeg";
+//import groundsImg from "../../Public/images/KgotlaGrounds.jpeg";
 import koketsoImg from "../../Public/images/KgosanaKoketso.jpeg";
 
 export default function Heritage() {
